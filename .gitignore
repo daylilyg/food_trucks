@@ -1,0 +1,25 @@
+target/
+
+### IntelliJ IDEA ###
+.idea/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### frontend temporal resources
+src/food-truck-frontend/dist/
+src/food-truck-frontend/.next/
+src/food-truck-frontend/node_modules/
+src/main/resources/web/

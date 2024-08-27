@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: food_trucks
+  mvc:
+    static-path-pattern: /**
+  web:
+    resources:
+      static-locations: classpath:/web/
+  elasticsearch:
+    # This is just an example, do not leave any production username and password here
+    # Your should use environment or kubernetes configmap to store them
+    uris:
+      - http://127.0.0.1:9200
+    username: elastic
+    password: amJNE3RyT*h6hE+SrFea
